@@ -8,17 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		0A8E4AF42AE9600600B974FB /* airsoftAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4AF32AE9600600B974FB /* airsoftAppApp.swift */; };
-		0A8E4AF62AE9600600B974FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4AF52AE9600600B974FB /* ContentView.swift */; };
+		0A8E4AF62AE9600600B974FB /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4AF52AE9600600B974FB /* SplashView.swift */; };
 		0A8E4AF82AE9600800B974FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8E4AF72AE9600800B974FB /* Assets.xcassets */; };
 		0A8E4AFB2AE9600800B974FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A8E4AFA2AE9600800B974FB /* Preview Assets.xcassets */; };
+		0A8E4B032AE9654200B974FB /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4B022AE9654200B974FB /* Strings.swift */; };
+		0A8E4B052AE9655400B974FB /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4B042AE9655400B974FB /* Images.swift */; };
+		0A8E4B082AE9661300B974FB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A8E4B072AE9661300B974FB /* Localizable.strings */; };
+		0A8E4B0A2AE9665600B974FB /* Localizable(Spanish).strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A8E4B092AE9665600B974FB /* Localizable(Spanish).strings */; };
+		0A8E4B0E2AE96A4E00B974FB /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4B0D2AE96A4E00B974FB /* SplashVM.swift */; };
+		0A8E4B112AE96A7C00B974FB /* SplashModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A8E4B102AE96A7C00B974FB /* SplashModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A8E4AF02AE9600600B974FB /* airsoftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airsoftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8E4AF32AE9600600B974FB /* airsoftAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = airsoftAppApp.swift; sourceTree = "<group>"; };
-		0A8E4AF52AE9600600B974FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A8E4AF52AE9600600B974FB /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		0A8E4AF72AE9600800B974FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A8E4AFA2AE9600800B974FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A8E4B022AE9654200B974FB /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Strings.swift; path = ../../../../Strings.swift; sourceTree = "<group>"; };
+		0A8E4B042AE9655400B974FB /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0A8E4B072AE9661300B974FB /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		0A8E4B092AE9665600B974FB /* Localizable(Spanish).strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = "Localizable(Spanish).strings"; sourceTree = "<group>"; };
+		0A8E4B0D2AE96A4E00B974FB /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		0A8E4B102AE96A7C00B974FB /* SplashModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0A8E4AF32AE9600600B974FB /* airsoftAppApp.swift */,
-				0A8E4AF52AE9600600B974FB /* ContentView.swift */,
-				0A8E4AF72AE9600800B974FB /* Assets.xcassets */,
 				0A8E4AF92AE9600800B974FB /* Preview Content */,
+				0A8E4B012AE9649A00B974FB /* Resources */,
+				0A8E4B062AE965B300B974FB /* SplashScreen */,
 			);
 			path = airsoftApp;
 			sourceTree = "<group>";
@@ -65,6 +77,36 @@
 				0A8E4AFA2AE9600800B974FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A8E4B012AE9649A00B974FB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A8E4AF72AE9600800B974FB /* Assets.xcassets */,
+				0A8E4B022AE9654200B974FB /* Strings.swift */,
+				0A8E4B042AE9655400B974FB /* Images.swift */,
+				0A8E4B072AE9661300B974FB /* Localizable.strings */,
+				0A8E4B092AE9665600B974FB /* Localizable(Spanish).strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A8E4B062AE965B300B974FB /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A8E4AF52AE9600600B974FB /* SplashView.swift */,
+				0A8E4B0D2AE96A4E00B974FB /* SplashVM.swift */,
+				0A8E4B0F2AE96A5200B974FB /* New Group */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		0A8E4B0F2AE96A5200B974FB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				0A8E4B102AE96A7C00B974FB /* SplashModel.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +168,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A8E4AFB2AE9600800B974FB /* Preview Assets.xcassets in Resources */,
+				0A8E4B0A2AE9665600B974FB /* Localizable(Spanish).strings in Resources */,
+				0A8E4B082AE9661300B974FB /* Localizable.strings in Resources */,
 				0A8E4AF82AE9600800B974FB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +181,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A8E4AF62AE9600600B974FB /* ContentView.swift in Sources */,
+				0A8E4B112AE96A7C00B974FB /* SplashModel.swift in Sources */,
+				0A8E4AF62AE9600600B974FB /* SplashView.swift in Sources */,
+				0A8E4B0E2AE96A4E00B974FB /* SplashVM.swift in Sources */,
+				0A8E4B052AE9655400B974FB /* Images.swift in Sources */,
+				0A8E4B032AE9654200B974FB /* Strings.swift in Sources */,
 				0A8E4AF42AE9600600B974FB /* airsoftAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
