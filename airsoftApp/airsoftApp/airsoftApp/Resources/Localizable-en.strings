@@ -1,7 +1,10 @@
 /* 
-  Localizable(Spanish).strings
+  Localizable.strings
   airsoftApp
 
   Created by Eduardo Martinez Palomino on 25/10/23.
   
 */
+
+//Login
+"login.button.next" = "Next";
